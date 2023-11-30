@@ -30,7 +30,7 @@
   class User {
     public email: string;
     public lastAccess: Date;
-    public role: string;
+    public role: string; // comment
 
     constructor({ email, role }: UserProps) {
       this.lastAccess = new Date();
